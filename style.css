@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(52,57,63,255);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 18px;
+    width: 100%;
+}
+.linksheader2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58%;
+    list-style-type: none;
+    padding-left: 70px;
+    font-size: 15px;
+    margin-top: 22px;
+    
+}
+.tickets {
+    color: rgba(69,131,85,255);
+    font-weight: 30px;
+}
+.conferencia {
+    color: white;
+    font-weight: 450;
+}
+.oradores {
+    color: darkgray;
+    font-weight: 450;
+}
+.lugaryfecha {
+    color: darkgray;
+    font-weight: 450;
+}
+.orador {
+    color: darkgray;
+    font-weight: 450;
+}
+
+.confbsas {
+    justify-content:center;
+    margin-top: 15px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 250px;
+    font-weight:50px;
+}
+.felx-container{
+    width: 100%;
+    margin-left: 220px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.descuentos{
+    border: 2px solid;
+    border-color: blue;
+    width: 250px;
+    height: 285px;
+    margin: 5px;
+}
+.descuentos1{
+    border: 2px solid;
+    border-color: yellow;
+    width: 250px;
+    height: 285px;
+    margin: 5px;
+}
+.letras{
+    font-size: 30px;
+    color: black;
+}
+.catycant{
+    width: 100%;
+    margin-left: 220px;
+    display: flex;
+}
+.cant{
+    margin-left: 10px;
+}
+.categ{
+    margin-left: 330px;  
+}
+.resoul{
+    margin-left: 220px;
+    width: 780px;
+    background-color: rgb(183, 218, 244);
+}
+.res{
+    background-color:  rgb(183, 218, 244);
+    border: 2px solid  rgb(183, 218, 244);
+    font: blue;
+}
+.ans{
+    margin-right: 5px;
+}
+
+.valor{
+    text-align: center;
+}
+.nombre {
+    margin-left: 220px;
+
+}
+.btn-success {
+    font-size: 20px;
+    background-color: lawngreen;
+    width: 381px;
+    margin: 5px;
+}
+.apellido {
+  
+    margin-right: 220px;
+}
+.mail{
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.footer {
+    text-align: center;
+    background: rgb(46, 55, 71);
+    display: flex;
+    color:white;
+    flex-direction:row;
+    padding-left: 50px;
+    padding-right: 250px;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    align-items: center;
+    position:relative;
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+
+.condiciones {
+    width: 8%; 
+    line-height: 150%
+}
+
+.conferencias {
+    width: 7%;
+}
+
+.privacidad {
+    width: 7%;
+}
+
+.estudiantes {
+    width: 7%;
+}
+
+.prensa {
+    width: 7%;
+}
+
+.preguntas {
+    width: 7%;
+    line-height: 150%;
+    margin-top: 5px;
+}
+/*------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+
+    body {
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    
+    .header {
+        background-color: rgba(52,57,63,255);
+        padding-top: 5px;
+        padding-bottom: 10px;
+        display: flex;
+        padding-left: 18px;
+        width: 100%;
+    }
+    .linksheader2 {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 58%;
+        list-style-type: none;
+        padding-left: 70px;
+        font-size: 15px;
+        margin-top: 22px;
+        
+    }
+    .tickets {
+        color: rgba(69,131,85,255);
+        font-weight: 30px;
+    }
+    .conferencia {
+        color: white;
+        font-weight: 450;
+    }
+    .oradores {
+        color: darkgray;
+        font-weight: 450;
+    }
+    .lugaryfecha {
+        color: darkgray;
+        font-weight: 450;
+    }
+    .orador {
+        color: darkgray;
+        font-weight: 450;
+    }
+    
+    .confbsas {
+        justify-content:center;
+        margin-top: 15px;
+        color: white;
+        margin-left: 50px;
+        margin-right: 250px;
+        font-weight:50px;
+    }
+    .felx-container{
+        width: 100%;
+        margin-left: 220px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .descuentos{
+        border: 2px solid;
+        border-color: blue;
+        width: 250px;
+        height: 285px;
+        margin: 5px;
+    }
+    .descuentos1{
+        border: 2px solid;
+        border-color: yellow;
+        width: 250px;
+        height: 285px;
+        margin: 5px;
+    }
+    .letras{
+        font-size: 30px;
+        color: black;
+    }
+    .catycant{
+        width: 100%;
+        margin-left: 220px;
+        display: flex;
+    }
+    .cant{
+        margin-left: 10px;
+    }
+    .categ{
+        margin-left: 330px;  
+    }
+    .resoul{
+        margin-left: 220px;
+        width: 780px;
+        background-color: rgb(183, 218, 244);
+    }
+    .res{
+        background-color:  rgb(183, 218, 244);
+        border: 2px solid  rgb(183, 218, 244);
+        font: blue;
+    }
+    .ans{
+        margin-right: 5px;
+    }
+    
+    .valor{
+        text-align: center;
+    }
+    .nombre {
+        margin-left: 220px;
+    
+    }
+    .btn-success {
+        font-size: 20px;
+        background-color: lawngreen;
+        width: 381px;
+        margin: 5px;
+    }
+    .apellido {
+      
+        margin-right: 220px;
+    }
+    .mail{
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+    .footer {
+        text-align: center;
+        background: rgb(46, 55, 71);
+        display: flex;
+        color:white;
+        flex-direction:row;
+        padding-left: 50px;
+        padding-right: 250px;
+        justify-content: space-around;
+        list-style-type: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+        align-items: center;
+        position:relative;
+        width: 100%;
+        margin-bottom: 0%;
+    
+    }
+    
+    .condiciones {
+        width: 8%; 
+        line-height: 150%
+    }
+    
+    .conferencias {
+        width: 7%;
+    }
+    
+    .privacidad {
+        width: 7%;
+    }
+    
+    .estudiantes {
+        width: 7%;
+    }
+    
+    .prensa {
+        width: 7%;
+    }
+    
+    .preguntas {
+        width: 7%;
+        line-height: 150%;
+        margin-top: 5px;
+}
+}
